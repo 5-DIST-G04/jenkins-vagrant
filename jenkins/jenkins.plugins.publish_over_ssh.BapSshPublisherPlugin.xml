@@ -1,0 +1,104 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.publish__over__ssh.BapSshPublisherPlugin_-Descriptor plugin="publish-over-ssh@1.20.1">
+  <hostConfigurations>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name>pi1</name>
+      <hostname>192.168.5.51</hostname>
+      <username>pi</username>
+      <secretPassword>{AQAAABAAAAAQqNt809p9J1K9Goi1vKLk1tq6ulmNySI8m6a0RiBJr1c=}</secretPassword>
+      <remoteRootDir>/home/pi</remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration">
+        <secretPassphrase>{AQAAABAAAAAQOofrfg+w/DXyneB+0wP/8modjbDzFkulpBtLWhbzJMY=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+        <disableAllExec>false</disableAllExec>
+      </commonConfig>
+      <timeout>300000</timeout>
+      <overrideKey>true</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQdAH/LAHS4rjjhYr5ej1jdCx7ZV1960b0MJbl4XfIj7k=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name>pi2</name>
+      <hostname>192.168.5.52</hostname>
+      <username>pi</username>
+      <secretPassword>{AQAAABAAAAAQvgjuYPE3Z3y8gS+q1H7PrNfww6olWscpM+/DlfrNY8w=}</secretPassword>
+      <remoteRootDir>/home/pi</remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration" reference="../../jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+      <timeout>300000</timeout>
+      <overrideKey>true</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQt0ULq9llsevsV7cutbV5Jz15mxhDaWIBHqLqsXHhJAI=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name>pi 3</name>
+      <hostname>192.168.5.53</hostname>
+      <username>pi</username>
+      <secretPassword>{AQAAABAAAAAQN9zXR17XvrP0tTZIdhieEd4Msfoo4VaRK3CMjxkNPAY=}</secretPassword>
+      <remoteRootDir>/home/pi</remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration" reference="../../jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+      <timeout>300000</timeout>
+      <overrideKey>true</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQYlnAF70IIC6E6Ww3nJORczgOCZQOJnlhEbx8rOLGvU8=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name>pi4</name>
+      <hostname>192.168.5.54</hostname>
+      <username>pi</username>
+      <secretPassword>{AQAAABAAAAAQhpxEak3Kcx/2GWAJuSFWj8aQdASkTYsjokJsOFyjnBc=}</secretPassword>
+      <remoteRootDir>/home/pi</remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration" reference="../../jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+      <timeout>300000</timeout>
+      <overrideKey>true</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQesd3gCMwZ/6ugjkDTDXP5PA5sJQFsavr796SA28HaQA=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <proxyPassword></proxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+  </hostConfigurations>
+  <commonConfig reference="../hostConfigurations/jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+  <defaults class="jenkins.plugins.publish_over_ssh.options.SshPluginDefaults"/>
+</jenkins.plugins.publish__over__ssh.BapSshPublisherPlugin_-Descriptor>

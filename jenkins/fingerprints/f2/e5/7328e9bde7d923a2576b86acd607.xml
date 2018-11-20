@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-11-20 08:51:13.600 UTC</timestamp>
+  <md5sum>f2e57328e9bde7d923a2576b86acd607</md5sum>
+  <fileName>org.glassfish.hk2:hk2-utils-2.3.0-b05.jar</fileName>
+  <usages>
+    <entry>
+      <string>Client-deploy/com.practicum:Distributed-systems</string>
+      <ranges>1,3</ranges>
+    </entry>
+    <entry>
+      <string>Client-deploy</string>
+      <ranges>1,3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

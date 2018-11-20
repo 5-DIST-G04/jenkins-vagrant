@@ -1,9 +1,9 @@
 
 The following files have been resolved:
    org.jenkins-ci:executable-war:jar:1.41:provided
-   org.jenkins-ci.main:jenkins-core:jar:2.138.2:compile
+   org.jenkins-ci.main:jenkins-core:jar:2.138.3:compile
    org.jenkins-ci.plugins.icon-shim:icon-set:jar:1.0.5:compile
-   org.jenkins-ci.main:cli:jar:2.138.2:compile
+   org.jenkins-ci.main:cli:jar:2.138.3:compile
    org.jenkins-ci:version-number:jar:1.4:compile
    org.jenkins-ci:crypto-util:jar:1.1:compile
    org.jvnet.hudson:jtidy:jar:4aug2000r7-dev-hudson-1:compile
@@ -26,12 +26,12 @@ The following files have been resolved:
    org.jenkins-ci:trilead-ssh2:jar:build-217-jenkins-11:compile
    net.i2p.crypto:eddsa:jar:0.2.0:compile
    org.connectbot.jbcrypt:jbcrypt:jar:1.0.0:compile
-   org.kohsuke.stapler:stapler-groovy:jar:1.254.2:compile
-   org.kohsuke.stapler:stapler-jelly:jar:1.254.2:compile
+   org.kohsuke.stapler:stapler-groovy:jar:1.255:compile
+   org.kohsuke.stapler:stapler-jelly:jar:1.255:compile
    org.jenkins-ci:commons-jelly:jar:1.1-jenkins-20120928:compile
    org.jenkins-ci.dom4j:dom4j:jar:1.6.1-jenkins-4:compile
-   org.kohsuke.stapler:stapler-jrebel:jar:1.254.2:compile
-   org.kohsuke.stapler:stapler:jar:1.254.2:compile
+   org.kohsuke.stapler:stapler-jrebel:jar:1.255:compile
+   org.kohsuke.stapler:stapler:jar:1.255:compile
    javax.annotation:javax.annotation-api:jar:1.2:compile
    commons-discovery:commons-discovery:jar:0.4:compile
    org.jvnet:tiger-types:jar:2.2:compile
@@ -119,7 +119,7 @@ The following files have been resolved:
    com.jcraft:jzlib:jar:1.1.3-kohsuke-1:compile
    org.jenkins-ci.main:remoting:jar:3.25:compile
    org.jenkins-ci:constant-pool-scanner:jar:1.2:compile
-   org.jenkins-ci.main:cli:jar:jar-with-dependencies:2.138.2:provided
+   org.jenkins-ci.main:cli:jar:jar-with-dependencies:2.138.3:provided
    org.jenkins-ci:winstone:jar:5.0:test
    org.jenkins-ci.modules:instance-identity:jar:2.2:compile
    io.github.stephenc.crypto:self-signed-cert-generator:jar:1.0.0:compile

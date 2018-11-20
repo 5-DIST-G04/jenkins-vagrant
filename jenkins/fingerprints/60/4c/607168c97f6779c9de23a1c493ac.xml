@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-11-20 08:55:51.198 UTC</timestamp>
+  <original>
+    <name>Client-deploy/com.practicum:Distributed-systems</name>
+    <number>3</number>
+  </original>
+  <md5sum>604c607168c97f6779c9de23a1c493ac</md5sum>
+  <fileName>com.practicum:Distributed-systems-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>Client-deploy/com.practicum:Distributed-systems</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>Client-deploy</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
